@@ -6,7 +6,7 @@ import google.generativeai as genai
 import os
 
 # Recommended: Set your API key securely
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyAaxeRhne_YryZq1nf1YdjUOtjyKertAEM"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "Your Api"))
 
 
 class Assistant:
